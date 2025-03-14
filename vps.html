@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>BloodCloud | VPS Plans</title>
+    <meta name="keywords" content="VPS Server Plans, Best VPS Hosting">
+    <meta name="description" content="Explore our affordable and flexible VPS server plans.">
+    <meta name="author" content="Uchiha nodes">
+    <link rel="shortcut icon" href="images/logos/logo.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/logos/logo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/versions.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="js/modernizer.js"></script>
+</head>
+
+<body class="host_version">
+
+    <header class="header header_style_01">
+        <nav class="megamenu navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logos/logo (23).png" alt="image" class="animated-logo">
+                    </a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="https://host-bloodcloud.github.io/home/">Home</a></li>
+                        <li><a class="active" href="./vps">VPS Plans</a></li>
+                        <li><a href="https://host-bloodcloud.github.io/home/mcplans">Minecraft Server Plans</a></li>
+                        <li><a href="./domain">Domain</a></li>
+                        <li><a href="./feature">Features</a></li>
+                        <li><a href="./about">About</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="https://discord.gg/huKbNGZrVE" target="_blank">
+                                <i class="fab fa-discord" aria-hidden="true" style="font-size: 20px;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="plans" class="plans-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-title">VPS Plans</h2>
+                    <p class="section-subtitle">Choose the perfect plan for your VPS server.</p>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Plan Boxes -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="plan-box">
+                        <h3>Basic Plan</h3>
+                        <p class="price">₹750 /monthly</p>
+                        <ul>
+                            <li>8GB RAM</li>
+                            <li>4 CORE CPU</li>
+                        </ul>
+                        <button class="btn btn-light btn-radius btn-brd effect-1" data-toggle="modal" data-target="#paymentModal">Purchase</button>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="plan-box">
+                        <h3>Standard Plan</h3>
+                        <p class="price">₹1,000 /monthly</p>
+                        <ul>
+                            <li>16GB RAM</li>
+                            <li>6 CORE CPU</li>
+                        </ul>
+                        <button class="btn btn-light btn-radius btn-brd effect-1" data-toggle="modal" data-target="#paymentModal">Purchase</button>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="plan-box">
+                        <h3>Advanced Plan</h3>
+                        <p class="price">₹1,500 /monthly</p>
+                        <ul>
+                            <li>32GB RAM</li>
+                            <li>8 CORE CPU</li>
+                        </ul>
+                        <button class="btn btn-light btn-radius btn-brd effect-1" data-toggle="modal" data-target="#paymentModal">Purchase</button>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="plan-box">
+                        <h3>Pro Plan</h3>
+                        <p class="price">₹2,700 /monthly</p>
+                        <ul>
+                            <li>64GB RAM</li>
+                            <li>12 CORE CPU</li>
+                        </ul>
+                        <button class="btn btn-light btn-radius btn-brd effect-1" data-toggle="modal" data-target="#paymentModal">Purchase</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="paymentModal" tabindex="-1" role="dialog" aria-labelledby="paymentModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="paymentModalLabel">Choose Payment Option</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="paymentForm">
+                        <div class="form-group">
+                            <label for="paymentOption">Select Payment Method:</label>
+                            <select class="form-control" id="paymentOption" required>
+                                <option value="" disabled selected>Select a payment method</option>
+                                <option value="upi">UPI</option>
+                                <option value="phonepe">Phonepe</option>
+                                <option value="gpay">Gpay</option>
+                                <option value="paytm">Paytm</option>
+                                <option value="credit_card">Credit Card</option>
+                                <option value="paypal">PayPal</option>
+                            </select>
+                        </div>
+                        <button type="button" class="btn btn-primary" id="payButton">
+                            <i class="fas fa-wallet"></i> Pay
+                        </button>
+                    </form>
+                    <div id="paymentDetails" class="mt-3" style="display: none;">
+                        <div id="upiDetails" style="display: none;">
+                            <p><b>Important :-</b></p>
+                            <p><strong>Before Paying Read All The Instructions:-</strong></p>
+                            <p>After Completing Payment, Take A Screenshot Of The Payment Proof.</p>
+                            <p>After Taking Screenshot, Click On Checkout Button Below.</p>
+                            <p>Checkout Button Will Redirect You To Our Discord Checkout Channel.</p>
+                            <p>In The Channel Make Checkout Ticket & Send The Payment Proof There.</p>
+                            <p>After Providing All Details And Proof Wait For The Owner Approval.</p>
+                            <p>You Will Be Provided With Your Server Shortly.</p>
+                            <img src="images/logos/MeowSamOP.jpg" alt="UPI QR Code" class="img-fluid">
+                            <span>meowsamop@fam</span>
+                            <p>Instructions: Open your UPI app, scan the QR code, Check name should be Pratham Anand Basavanal or Pratham and proceed with the payment.</p>
+                        </div>
+                        <div id="creditCardDetails" style="display: none;">
+                            <p>Not available Currently.</p>
+                        </div>
+                        <div id="paypalDetails" style="display: none;">
+                            <p>Not available Currently.</p>
+                        </div>
+                        <div class="checkout-button-container">
+                            <button class="btn btn-success" id="checkoutButton" style="display: none;"> <i class="fas fa-shopping-cart"></i> Proceed to Checkout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div id="about" class="widget clearfix">
+                        <div class="widget-title">
+                            <img src="images/logos/logo (23).png" alt="">
+                        </div>
+                        <p>BloodCloud offers Blood-fast and reliable VPS hosting for users who demand top-tier performance. Powered by high-performance hardware, ultra-low latency, and guaranteed uptime, we ensure your applications run smoothly and
+                            efficiently. Whether you're hosting a personal project or managing a growing business, our scalable plans and 24/7 support are designed to provide you with everything you need for a flawless experience.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Quick Link</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="https://host-bloodcloud.github.io/home">Home</a></li>
+                            <li><a class="active" href="./vps">VPS Plans</a></li>
+                            <li><a href="https://host-bloodcloud.github.io/home/mcplans">Minecraft Server Plans</a></li>
+                            <li><a href="./domain">Domain</a></li>
+                            <li><a href="./feature">Features</a></li>
+                            <li><a href="./about">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Contact Details</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><i class="fab fa-discord"></i><a href="https://discord.gg/huKbNGZrVE" target="_blank"> Join Discord</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                    <p class="footer-company-name">&copy; 2025 BloodCloud. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/all.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Handle payment form submission
+        document.getElementById('payButton').addEventListener('click', function() {
+            const paymentOption = document.getElementById('paymentOption').value;
+            document.getElementById('paymentDetails').style.display = 'block';
+
+            // Hide all payment details initially
+            document.getElementById('upiDetails').style.display = 'none';
+            document.getElementById('creditCardDetails').style.display = 'none';
+            document.getElementById('paypalDetails').style.display = 'none';
+            document.getElementById('checkoutButton').style.display = 'none';
+
+            // Show relevant payment details based on selection
+            if (paymentOption === 'upi') {
+                document.getElementById('upiDetails').style.display = 'block';
+                document.getElementById('checkoutButton').style.display = 'block';
+            } else if (paymentOption === 'credit_card') {
+                document.getElementById('creditCardDetails').style.display = 'block';
+                document.getElementById('checkoutButton').style.display = 'block';
+            } else if (paymentOption === 'paypal') {
+                document.getElementById('paypalDetails').style.display = 'block';
+                document.getElementById('checkoutButton').style.display = 'block';
+            }
+        });
+
+        document.getElementById('checkoutButton').addEventListener('click', function() {
+            window.open('https://discord.gg/xjxVP9pn6W', '_blank');
+        });
+    </script>
+</body>
+
+</html>
