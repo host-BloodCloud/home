@@ -1,0 +1,27 @@
+document.addEventListener("DOMContentLoaded", () => {
+    const links = document.querySelectorAll(".nav-links a");
+    
+    links.forEach(link => {
+        link.addEventListener("click", (event) => {
+            event.preventDefault();
+            const targetId = link.getAttribute("href").substring(1);
+            const targetElement = document.getElementById(targetId);
+            
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop - 60,
+                    behavior: "smooth"
+                });
+            }
+        });
+    });
+
+    window.addEventListener("scroll", () => {
+        let header = document.querySelector("header");
+        if (window.scrollY > 50) {
+            header.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
+        } else {
+            header.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
+        }
+    });
+});
